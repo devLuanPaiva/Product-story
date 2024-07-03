@@ -1,1 +1,4 @@
-<p>List works!</p>
+<a mat-raised-button color="primary" [routerLink]="['/create-product']">Criar Produto</a>
+@for (product of products; track product.id) {
+    <app-card [product]="product"/>
+}
