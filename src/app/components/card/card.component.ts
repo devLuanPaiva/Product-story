@@ -1,6 +1,6 @@
 import { Component, computed, input } from '@angular/core';
-import {MatCardModule} from '@angular/material/card'
-import {MatButtonModule} from '@angular/material/button'
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 import { Product } from '../../interfaces/product';
 
 @Component({
@@ -8,10 +8,10 @@ import { Product } from '../../interfaces/product';
   standalone: true,
   imports: [MatButtonModule, MatCardModule],
   templateUrl: './card.component.html',
-  styleUrl: './card.component.scss'
+  styleUrl: './card.component.scss',
 })
 export class CardComponent {
-  product = input.required<Product>()
+  product = input.required<Product>();
 
-  productTitle = computed(() => this.product().title)
+  productTitle = computed(() => this.product().title);
 }

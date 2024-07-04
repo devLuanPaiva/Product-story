@@ -1,8 +1,20 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "title": "Produto de Teste"
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "title": "Produto de Teste"
+    },
+    {
+      "id": "0cf3",
+      "title": "Luan"
+    },
+    {
+      "id": "e249",
+      "title": "camiseta"
+    },
+    {
+      "id": "9b5b",
+      "title": "Short"
+    }
+  ]
 }
