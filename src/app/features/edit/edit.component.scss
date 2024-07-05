@@ -1,0 +1,12 @@
+form{
+    width: 90vw;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    mat-form-field{
+        display:flex;
+        flex-direction: column;
+    }
+    button{
+        float: right;
+    }
+}
