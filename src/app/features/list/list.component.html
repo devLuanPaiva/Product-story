@@ -2,6 +2,12 @@
 @for (product of products(); track product.id) {
 <app-card [product]="product" (edit)="onEdit(product)"
     (delete)="onDelete(product)" />
+<<<<<<< HEAD
+=======
+}
+@empty {
+    <app-no-items />
+>>>>>>> refactor/list-products
 }
 @empty {
     <app-no-items />
