@@ -22,11 +22,7 @@ export class ListComponent {
   productsService = inject(ProductsService);
   router = inject(Router);
   confirmationDialogService = inject(ConfirmationDialogService);
-<<<<<<< HEAD
  
-=======
-
->>>>>>> refactor/list-products
   onEdit(product: Product) {
     this.router.navigate(['/edit-product', product.id]);
   }
