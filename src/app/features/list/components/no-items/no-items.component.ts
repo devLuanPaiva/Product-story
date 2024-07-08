@@ -6,8 +6,6 @@ import { MatCardModule } from '@angular/material/card';
   standalone: true,
   imports: [MatCardModule],
   templateUrl: './no-items.component.html',
-  styleUrl: './no-items.component.scss'
+  styleUrl: './no-items.component.scss',
 })
-export class NoItemsComponent {
-
-}
+export class NoItemsComponent {}

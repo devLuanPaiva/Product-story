@@ -1,14 +1,8 @@
 <a mat-raised-button color="primary" [routerLink]="['/create-product']">Criar Produto</a>
-<<<<<<< HEAD
-@for (product of products; track product.id) {
-    <app-card [product]="product" (edit)="onEdit(product)" 
-    (delete)="onDelete(product)"/>
-=======
 @for (product of products(); track product.id) {
 <app-card [product]="product" (edit)="onEdit(product)"
     (delete)="onDelete(product)" />
 }
 @empty {
     <app-no-items />
->>>>>>> 8327a43 (feat: cria componente para ser exibido quando não há produtos)
 }
